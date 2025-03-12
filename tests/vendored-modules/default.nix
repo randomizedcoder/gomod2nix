@@ -24,5 +24,6 @@ buildGoApplication {
     "-X github.com/naggie/dstask.GIT_COMMIT=v${version}"
   ];
 
+  # https://github.com/naggie/dstask
   subPackages = [ "cmd/dstask.go" ];
 }

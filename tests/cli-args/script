@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-set -euo pipefail
-cd "${0%/*}"
-# https://github.com/golang/tools/tags
-exec $GOMOD2NIX generate "golang.org/x/tools/cmd/stringer@v0.31.0"
